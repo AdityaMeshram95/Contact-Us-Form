@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challange #1</title>
+    <link rel="stylesheet" href="contactForm.css" />
+  </head>
+  <body>
+    <div class="container"> <!-- Main container: going to help in splitting the display in left and right class which is used in two another div tag-->
+      <div class="left">
+        <h1>Let's Chat</h1>
+        <hr />
+        <p>
+          Weather you have a question, want to start a project or simmply want
+          to connect.
+        </p>
+        <p>Feel free to send me a message in the contact form.</p>
+      </div>
+
+      <div class="right">
+        <form action="" method="get">
+          <section>
+            <h1>Contact Us</h1>
+            <hr />
+            <h2>Personal Information</h2>
+
+            <p>* Required</p>
+            <p>
+              Name: *<input
+                type="text"
+                name="name"
+                required
+                placeholder="Enter name"
+              />
+            </p>
+            <p>
+              Email: *<input
+                type="text"
+                name="email"
+                placeholder="example@gmail.com"
+              />
+            </p>
+            <p>
+              Company:
+              <input type="text" name="company" placeholder="Company name" />
+            </p>
+          </section>
+
+          <section>
+            <h2>Message</h2>
+            <p>
+              <textarea
+                name="Message"
+                id="Message"
+                cols="45"
+                rows="10"
+                placeholder="Enter your question here...."
+              ></textarea>
+            </p>
+            <input type="submit" value="Submit" />
+          </section>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
